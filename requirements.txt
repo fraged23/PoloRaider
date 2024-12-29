@@ -1,0 +1,8 @@
+requests
+colorama
+websocket-client
+websocket
+platform  
+asyncio  
+aiohttp
+typing 
