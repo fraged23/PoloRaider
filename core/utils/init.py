@@ -1,6 +1,7 @@
+import os
+
 try:
     import requests
-    import os
     import json
     import time
     import re
@@ -16,8 +17,11 @@ try:
     import aiohttp
 except ImportError:
     os.system("pip install requests")
-    os.system("pip install colarama")
+    os.system("pip install colorama") 
+    os.system("pip install websocket-client")
+    os.system("pip install aiohttp")
     os.system("pip install asyncio")
+    os.system("pip install typing")
 
 from colorama import(
     Fore, init, Style
