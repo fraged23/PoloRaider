@@ -6,3 +6,4 @@ platform
 asyncio  
 aiohttp
 typing 
+pystyle
