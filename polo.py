@@ -8,6 +8,8 @@ from core.token.bio_changer import *
 from core.token.name_changer import *
 from core.token.status_switcher import *
 
+System.Size(125, 22)
+
 def main_menu():
     options = {
         '1': Spammer(),
