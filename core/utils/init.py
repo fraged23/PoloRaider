@@ -12,7 +12,7 @@ try:
     import threading
     import random
     import typing
-    from pystyle import System
+    from pystyle import System as System
     from concurrent.futures import ThreadPoolExecutor
     import asyncio
     import aiohttp
